@@ -1,0 +1,572 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+  }
+.container{
+    margin: 0 265px;
+  }
+header{ 
+  background-color: #181818;
+  height: 100vh;
+ }
+ .header-line{
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 50px;
+}
+.header-logo{
+  position: relative;
+  display: flex;
+}
+.logoimg2{
+  position: absolute;
+  top: 13px; 
+  left:7px;   
+}
+.logoimg3{
+  position: absolute;
+  top: 17px; 
+  left:11px;   
+}
+.nav-item{
+  text-decoration: none;
+  color:#FFFFFF;
+  font-weight: 700;
+  font-size: 20px;
+  margin-right: 30px;
+}
+.nav-item:hover{
+  color:#FF7400;
+  transition: color 0.2s linear;
+}
+.geo{
+  position: relative;
+  display: flex;
+  margin-top: -20px;
+  right: 50px;
+}
+.geo-img{
+  position: absolute;
+  right: 10px;
+}
+.geo-text:hover{
+  color:#FF7400;
+  transition: color 0.2s linear;
+}
+.geo-text{
+  position: absolute;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 18px; 
+  margin-top: -3px;
+}
+.heading-phone{
+  display: flex;
+}
+.phone-title{
+  color:#FFFFFF;
+  font-weight: 400;
+  font-size: 15px;
+  margin-left: 10px;
+}
+.phone-nomer{
+  color:#FFFFFF;
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.button{
+  background: #FF7400;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 14px 19px;
+  border-radius: 15px;
+  display: flex;
+  
+}
+.button:hover{
+  background: #cf5d00;
+  transition: color 0.2s linear;
+}
+.btn-text{
+  font-weight: 700;
+  font-size: 20px;
+}
+.heading{ 
+  display: flex;
+  position: relative;
+  margin-left: 50px;
+}
+.heading-text{
+  margin-top: 100px;
+  margin-right: 120px;
+}
+.heading-title1{
+  color:#FFFFFF;
+  font-weight: 400;
+  font-size: 70px;
+  margin-top: 20px;
+}
+.heading-title2{
+  color:#FF7400;
+  font-weight: 400;
+  font-size: 70px;
+  margin-top: 5px;
+}
+.heading-title3{
+  color:#FFFFFF;
+  font-weight: 400;
+  font-size: 70px;
+  margin-top: 5px;
+}
+.heading-inst{
+  color:#FFFFFF;
+  font-weight: 400;
+  font-size: 30px;
+  margin-top: 20px;
+}
+.heading-fon{
+  margin-left: 50px;
+}
+.info{
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+}
+.img-info{
+margin-bottom: 10px;
+}
+.info-instryment{
+  margin-right: 150px;
+}
+.instryment-text{
+  color:#FFFFFF;
+  font-weight: 400;
+  font-size: 20px;
+}
+.instrymenty{
+  background-color: #1e1d1d;
+}
+.diagnos-title{
+  color:#FF7400;
+  font-weight: 400;
+  font-size: 50px;
+  padding-top: 40px;
+  margin-bottom: 10px;
+}
+.diagnos-text{
+  color:#FFFFFF;
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+.knopki{
+  display: flex;
+  padding-bottom: 50px;
+}
+.button-problem{
+  margin-right: 30px;
+  text-decoration: none;
+  color: #fdfcfb;
+  font-weight: 700;
+  font-size: 14px;
+  border: 2px solid #FF7400;
+  border-radius:10px;
+  padding: 15px 35px;
+}
+.button-problem:hover{
+  background: #cf5d00;
+  transition: color 0.2s linear;
+}
+.btn-problem{
+  text-decoration: none;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 14px;
+  border: 2px solid #FF7400;
+  border-radius:10px;
+  padding: 15px 10px;
+}
+.btn-problem:hover{
+  background: #cf5d00;
+  transition: color 0.2s linear;
+}
+.diagnostika{
+  background-color: #181818;
+}
+.onli-diagnostik{
+  position: relative;
+  display: flex;
+  padding-bottom: 50px;
+}
+.diagnos-right{
+position: relative;
+margin-left: 140px;
+}
+.img-diagnos{
+  margin-top: 130px;
+  margin-left: 10px;
+  position: absolute;
+}
+.problema1-left{
+  position: relative;
+}
+.problema1-btn{
+  padding-top: 50px;
+  text-decoration: none;
+  color: #FF7400;
+  font-weight: 700;
+  font-size: 16px;
+  position: absolute;
+}
+.problema1-btn:hover{
+  color: #cf5d00;
+  transition: color 0.2s linear;
+}
+.problema1{
+  display: flex;
+}
+.problema1-title{
+  color:#FFFFFF;
+  font-weight: 700;
+  font-size: 50px;
+  margin-top: 100px;
+}
+.problema1-text{
+  color:#FFFFFF;
+  font-weight: 400;
+  font-size: 40px;
+  margin-top:30px ;
+}
+.problema1-right{
+  margin-top: 220px;
+  margin-right: 80px;
+}
+.problema2-text{
+  color:#FFFFFF;
+  font-weight: 400;
+  font-size: 45px;
+  margin-top:30px ;
+}
+.stoimosti{
+  background-color: #1e1d1d;
+}
+.suma-title{
+  color:#FFFFFF;
+  font-weight: 700;
+  font-size: 50px;
+  padding-top: 50px;
+  text-align: center;
+}
+.yslygi{
+  display:flexbox;
+  margin-top: 60px;
+  border-bottom:2px solid #bab8b8;
+  position: relative;
+}
+.yslyga-title{
+  color:#FFFFFF;
+  font-weight: 400;
+  font-size: 30px;
+  text-align: left;
+  position: absolute;
+}
+.yslyga-text{
+  color:#FFFFFF;
+  font-weight: 400;
+  font-size: 30px;
+  text-align: right;
+}
+.yslyga-summa{
+  color:#FFFFFF;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: right;
+}
+.yslyga{
+  display:flexbox;
+  margin-top: 20px;
+  border-bottom:2px solid #bab8b8;
+  position: relative;
+}
+.stoimost-yslyg{
+  padding-bottom: 50px;
+}
+.personal{
+  background-color: #1e1d1d;
+}
+.personal-title{
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 10px;
+  color:#FF7400;
+  font-weight: 400;
+  font-size: 30px;
+}
+.personal-text{
+  text-align: center;
+  padding-bottom: 50px;
+  color:#FFFFFF;
+  font-weight: 700;
+  font-size: 40px;
+}
+.personals{
+  display: flex;
+  justify-content: center;
+}
+.card{
+  margin-top: -400px;
+  box-shadow: 10px 10px 40px 20px #515050;
+  width: 380px;
+  height: 649px;
+  background-color: #FFFFFF;
+  padding: 10px 10px;
+  margin-right: 70px;
+  margin-bottom: 50px;
+}
+
+.cards{
+  margin-top: -400px;
+  box-shadow: 10px 10px 40px 20px #515050;
+  width: 380px;
+  height: 649px;
+  background-color: #FFFFFF;
+  padding: 10px 10px;
+}
+.fio{
+  font-weight: 700;
+  font-size: 30px;
+  margin-left: 30px;
+  margin-top: 420px;
+}
+.dolhnost{
+  font-weight: 400;
+  font-size: 30px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.bio{
+  font-weight: 400;
+  font-size: 20px;
+  color:#FF7400;
+  margin-left: 30px;
+  margin-top:15px;
+}
+.galachka{
+  margin-right: 10px;
+}
+.zvezda{
+  color:rgb(248, 191, 48);
+}
+.otzyvy{
+  background-color: #181818; 
+}
+.otzyvy-title{
+  font-weight: 700;
+  font-size: 40px;
+  color:#ffffff;
+  padding-top:50px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.pismo{
+  background-color: #181818; 
+}
+.pismo-card{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 450px;
+}
+.pismo-box{
+box-shadow: 10px 10px 40px 20px #515050;
+width: 550px;
+height: 690px;
+background-color: #FFFFFF;
+padding: 10px 10px;
+border-radius:10px;
+}
+.box{
+  box-sizing:border-box;
+  margin-top: 5px;
+}
+.input-text{
+  width: 500px;
+  padding: 10px 5px;
+  margin: 10px 0px;
+  border-radius: 7px;
+  border: 3px solid rgb(252, 80, 1); 
+  font-weight: 400;
+  font-size: 18px;  
+}
+b{
+  font-weight: 700;
+  font-size: 20px; 
+}
+button{
+  font-weight: 700;
+  font-size: 20px;  
+  width: 450px;
+  padding: 20px 5px;
+  margin: 3px 0px;
+  background-color: rgb(246, 84, 25) ;
+  border: none;
+  color: rgb(250, 244, 244);
+  cursor: pointer;
+  border-radius:10px;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 20px
+}
+.geolokaciya{
+  background-color: #1e1d1d;
+}
+.raspologenie{
+  display: flex;
+}
+.geo-left{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 70px;
+}
+.karta-title{
+  color:#f35308;
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.adress{
+  color:#FFFFFF;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.timee{
+  color:#f76612;
+  font-weight: 400;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+.karta-text{
+  color:#FFFFFF;
+  font-weight: 700;
+  font-size: 30px;
+}
+.geo-right{
+  margin-left: 80px;
+  padding-top: 110px;
+}
+footer{
+  background-color: #181818; 
+}
+.footer-text{
+  text-align: center;
+  color:#f75c09;
+  font-weight: 700;
+  font-size: 40px;
+  padding-top:50px ;
+  padding-bottom: 50px;
+}
+.oplata{
+  display: flex;
+  padding-bottom: 50px;
+  padding-left: 560px;
+}
+.oplata-name{
+  box-shadow: 10px 10px 40px 20px #515050;
+  width: 40px;
+  height: 20px;
+  background-color: #FFFFFF;
+  padding: 10px 10px;
+  border-radius:10px;
+  margin-left: 50px;
+}
+.kaspi{
+  margin-left: 7px;
+}
+.oplata-text{
+  box-shadow: 10px 10px 40px 20px #515050;
+  width: 145px;
+  height: 20px;
+  background-color: #FFFFFF;
+  padding: 10px 10px;
+  border-radius:10px;
+  margin-left: 50px;
+  font-weight: 700;
+}
+.oplata-title{
+  box-shadow: 10px 10px 40px 20px #515050;
+  width: 80px;
+  height: 20px;
+  background-color: #FFFFFF;
+  padding: 10px 10px;
+  border-radius:10px;
+  margin-left: 50px;
+}
+.gygl{
+  margin-top: 3px;
+}
+.slider-container {
+  position: relative;
+  width: 800px;
+  height: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+.slider img {
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+  margin-left: 95px;
+}
+.prev-button,
+.next-button {
+  position: absolute;
+  top: 30%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  font-size: 50px;
+  color: white;
+}
+.prev-button {
+  left: 10px;
+  color:#fc6907;
+}
+.next-button {
+  right: 10px;
+  color:#fc6907;
+}
+.fio-text{
+  text-align: center;
+  color:#fbfaf9;
+  font-weight: 700;
+  font-size: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.id-card{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 450px;
+}
+.id-box{
+box-shadow: 10px 10px 40px 20px #515050;
+width: 550px;
+height: 450px;
+background-color: #FFFFFF;
+padding: 10px 10px;
+border-radius:10px;
+}
